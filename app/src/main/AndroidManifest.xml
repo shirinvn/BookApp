@@ -6,23 +6,39 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <application
-        android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_app"
         android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@style/Theme.BookApp"
-        tools:targetApi="31">
+        android:roundIcon="@mipmap/ic_app"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.Testapp">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name="com.example.bookapp.Abute"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bookapp.ActivitySetting"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bookapp.ActivityInnerpage"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.bookapp.SplashActivity"
+            android:exported="true" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name="com.example.bookapp.MainActivity"
+            android:exported="false">
+
+        </activity>
     </application>
+
+
 
 </manifest>

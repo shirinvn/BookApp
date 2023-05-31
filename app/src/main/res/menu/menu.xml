@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+
+        android:id="@+id/about"
+        android:icon="@drawable/abouut"
+        android:title="منابع" />
+    <item
+        android:id="@+id/call"
+        android:icon="@drawable/clla"
+        android:title="تماس با ما" />
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/setting"
+        android:title="تنظیمات" />
+
+
+</menu>
